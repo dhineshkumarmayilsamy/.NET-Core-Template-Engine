@@ -1,0 +1,76 @@
+{
+  "$schema": "http://json.schemastore.org/vs-2017.3.host",
+  "icon": "logo.png",
+  "symbolInfo": [
+    {
+      "id": "Framework",
+      "name": {
+        "text": "Target Framework"
+      },
+      "isVisible": "true"
+    },
+    {
+      "id": "EnableSwaggerSupport",
+      "name": {
+        "text": "Enable Swagger Support"
+      },
+      "isVisible": "true"
+    },
+    {
+      "id": "Major",
+      "name": {
+        "text": "Major"
+      },
+      "isVisible": "true"
+    },
+    {
+      "id": "Minor",
+      "name": {
+        "text": "Minor"
+      },
+      "isVisible": "true"
+    },
+    {
+      "id": "Build",
+      "name": {
+        "text": "Build"
+      },
+      "isVisible": "true"
+    },
+    {
+      "id": "Server",
+      "name": {
+        "text": "MySQL Instance"
+      },
+      "isVisible": "true"
+    },
+    {
+      "id": "Port",
+      "name": {
+        "text": "Port"
+      },
+      "isVisible": "true"
+    },
+    {
+      "id": "Database",
+      "name": {
+        "text": "Database Name"
+      },
+      "isVisible": "true"
+    },
+    {
+      "id": "User",
+      "name": {
+        "text": "User Name"
+      },
+      "isVisible": "true"
+    },
+    {
+      "id": "Password",
+      "name": {
+        "text": "Password"
+      },
+      "isVisible": "true"
+    }
+  ]
+}

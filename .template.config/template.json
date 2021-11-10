@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Dhineshkumar Mayilsamy",
+  "classifications": [ "Web", "MVC" ],
+  "identity": "netcore.repository.pattern",
+  "name": "Repository Pattern template",
+  "description": "DotNet Core Web API Repository Pattern project template",
+  "shortName": "NetCoreRepoPattern",
+  "sourceName": "RepositoryPatternTemplate",
+  "defaultName": "Project1",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "preferNameDirectory": true,
+  "symbols": {
+    "Framework": {
+      "type": "parameter",
+      "description": "The target framework for the project.",
+      "datatype": "choice",
+      "choices": [
+      {
+          "choice": "net5.0",
+          "description": "Target net5.0"
+      }
+      ],
+      "defaultValue": "net5.0"
+    },
+    "EnableSwaggerSupport":{
+      "type": "parameter",
+      "description": "Enable swagger support",
+      "datatype":"bool",
+      "defaultValue": "true"
+    },
+    "Major":{
+      "type": "parameter",
+      "description": "MySql major version",
+      "datatype":"text",
+      "isRequired": true,
+      "replaces": "[$MAJOR]"
+    },
+    "Minor":{
+      "type": "parameter",
+      "description": "MySql minor version",
+      "datatype":"text",
+      "isRequired": true,
+      "replaces": "[$MINOR]"
+    },
+    "Build":{
+      "type": "parameter",
+      "description": "MySql build version",
+      "datatype":"text",
+      "isRequired": true,
+      "replaces": "[$BUILD]"
+    },
+    "Server":{
+      "type": "parameter",
+      "description": "MySql build version",
+      "datatype":"text",
+      "isRequired": true,
+      "replaces": "[$SERVER]"
+    },
+    "Port":{
+      "type": "parameter",
+      "description": "MySql build version",
+      "datatype":"text",
+      "isRequired": true,
+      "replaces": "[$PORT]"
+    },
+    "Database":{
+      "type": "parameter",
+      "description": "MySql build version",
+      "datatype":"text",
+      "isRequired": true,
+      "replaces": "[$DATABASE]"
+    },
+    "User":{
+      "type": "parameter",
+      "description": "MySql build version",
+      "datatype":"text",
+      "isRequired": true,
+      "replaces": "[$UID]"
+    },
+    "Password":{
+      "type": "parameter",
+      "description": "MySql build version",
+      "datatype":"text",
+      "isRequired": true,
+      "replaces": "[$PASSWORD]"
+    }
+    
+  }
+}
